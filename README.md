@@ -39,31 +39,31 @@ before, make sure to read [How to use the Gruntwork Infrastructure as Code Libra
 
 ### Core concepts
 
-* [What is a Namespace?](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/modules/namespace/README.md#what-is-a-namespace)
-* [What is Kubernetes RBAC?](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/modules/namespace-roles/README.md#what-is-kubernetes-role-based-access-control-rbac)
-* [What is a Service Account?](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/modules/service-account/README.md#what-is-a-serviceaccount)
+* [What is a Namespace?](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/modules/namespace/README.md#what-is-a-namespace)
+* [What is Kubernetes RBAC?](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/modules/namespace-roles/README.md#what-is-kubernetes-role-based-access-control-rbac)
+* [What is a Service Account?](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/modules/service-account/README.md#what-is-a-serviceaccount)
 * [Official Kubernetes Docs on Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 * [Official Kubernetes Docs on Service Accounts](https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/)
 * [Official Kubernetes Docs on RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 
 ### Repo organization
 
-* [modules](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
-* [examples](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/examples): This folder contains working examples of how to use the submodules.
-* [test](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/test): Automated tests for the modules and examples.
+* [modules](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/modules): the main implementation code for this repo, broken down into multiple standalone, orthogonal submodules.
+* [examples](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/examples): This folder contains working examples of how to use the submodules.
+* [test](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/test): Automated tests for the modules and examples.
 
 
 
 
 ## Deploy
 
-* [examples folder](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
+* [examples folder](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing (but not production usage).
 
 
 
 ## Manage
 
-* [How do you bind RBAC roles](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/modules/namespace-roles/README.md#how-do-you-bind-the-roles)
+* [How do you bind RBAC roles](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/modules/namespace-roles/README.md#how-do-you-bind-the-roles)
 
 
 
@@ -85,4 +85,4 @@ Please see [Contributing to the Gruntwork Infrastructure as Code Library](https:
 
 ## License
 
-Please see [LICENSE.txt](https://github.com/gruntwork-io/terraform-kubernetes-namespace/blob/main/LICENSE.txt) for details on how the code in this repo is licensed.
+Please see [LICENSE.txt](https://github.com/tnn-gruntwork-io/terraform-kubernetes-namespace/blob/main/LICENSE.txt) for details on how the code in this repo is licensed.
